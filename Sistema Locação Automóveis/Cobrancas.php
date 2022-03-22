@@ -20,10 +20,10 @@ Class Cobrancas
 	{
 		// ----------------------- MYSQL --------------------
 		// conexão com a base de dados MySql 
-		$host = "localhost";
-		$usuario = "??????";
-		$senha = "????????";
-		$bd = "??????";
+		$host = "db4free.net";
+		$usuario = "locacaosenai";
+		$senha = "123456789";
+		$bd = "locacaosenai";
 		$this->con = mysqli_connect($host, $usuario, $senha, $bd);
 		return $this->con;
 	}
